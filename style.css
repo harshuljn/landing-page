@@ -66,11 +66,61 @@ body {
   border-radius: 5px;
 }
 
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-content p {
+  padding: 0;
+  margin: 0;
+}
+
+.info-content .card {
+  max-width: 200px;
+}
+
+.info-content .card img {
+  max-width: 200px;
+  border-radius: 5%;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.cite {
+  font-style: italic;
+  text-align: end;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
 .footer {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
   color: #e5e7eb;
-  padding: 36px 0px;
+  padding: 24px 0px;
   font-size: 18px;
 }
